@@ -1,5 +1,7 @@
 # marvel-vue
-
+ ```
+ Captain Marvel Webpage Clone
+ ```
 ## Project setup
 ```
 npm install
