@@ -56,9 +56,112 @@
       <div class="md-first-child">
         <div class="slider">
           <Slide>
-            <a id="home" href="#">
-              <span>Home</span>
-            </a>
+
+            <div class="nav-item">
+                <a href="#">
+                    <div class="stuff">
+                      <span>Home</span>
+                      <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>characters</span>
+                  <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>comics</span>
+                  <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>movies</span>
+                  <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>tv shows</span>
+                  <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>games</span>
+                  <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>news</span>
+                  <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>Culture & Lifestyle</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>Books</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff">
+                  <span>podcast</span>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="nav-item">
+              <a href="#">
+                <div class="stuff-last">
+                  <span>shop</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-footer">
+                <div class="nav-stuff">
+                  <h3>Marvel Insider</h3>
+                  <div class="nav-name">
+                    <span class="nav-item">david</span>
+                    <span class="arrow"><i class="fa-solid fa-chevron-right"></i> </span>
+                  </div>
+                 </div>
+            </div>
           </Slide>
         </div>
         <div class="md-logo">

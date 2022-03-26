@@ -1,4 +1,48 @@
+.nav-stuff > h3 {
+    color: gold;
+    font-size: 10px;
+    position: relative;
+    left: -20px;
+}
+.arrow {
+    color: darkred;
 
+    font-size: 20px;
+}
+
+.nav-footer {
+    position: absolute;
+    left: 0;
+
+    color: white;
+    border-top: 1px solid #393939;
+    border-bottom: 1px solid #393939;
+    width: 100%;
+}
+.nav-stuff {
+    position: relative;
+    left: 2em;
+    padding: 20px;
+}
+.nav-name {
+    display: flex;
+    background-color: #202020;
+    width: 16em;
+    position: absolute;
+    left: 0px;
+    justify-content: space-between;
+}
+.stuff-last {
+
+    margin-bottom: 50px;
+
+}
+.stuff, .stuff-last{
+
+    display: flex;
+    justify-content: space-between;
+    width: 16em;
+}
 .lg-container {
     font-size: 12px;
     background-color: #202020;
@@ -11,7 +55,10 @@
     margin: 0;
     height: 100px;
 }
-
+a {
+    color: white;
+    text-decoration: none;
+}
 .md-container {
     font-size: 12px;
     background-color: #202020;
@@ -175,7 +222,7 @@ li {
     z-index: 1000; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgb(63, 63, 65); /* Black*/
+    background-color: #202020; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
@@ -187,7 +234,7 @@ li {
 .bm-item-list {
     color: blue;
     margin-left: 10%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .bm-item-list > * {
     display: flex;
