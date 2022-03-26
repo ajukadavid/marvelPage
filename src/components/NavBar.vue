@@ -162,6 +162,34 @@
                   </div>
                  </div>
             </div>
+            <div class="nav-socials">
+              <i class="fa-brands fa-facebook-square"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram-square"></i>
+              <i class="fa-brands fa-tumblr"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-snapchat"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+            <div class="nav-news" style="display: flex">
+              <div class="first-news" style="display: grid">
+                <img src="../assets/insider-logo.png" alt="insider logo" class="insider-logo"/>
+                <img src="../assets/mu-logo.png" alt="insider logo" class="unlimited-logo"/>
+              </div>
+              <div class="second-news" style="display: grid">
+                <div class="first-titley">
+                  <h4 style="color: #202020; font-size: 13px">Marvel Insider</h4>
+                  <p style="color: #393939; text-transform: none">Get rewarded for being a marvel fan</p>
+                </div>
+                <div class="second-titley">
+                  <h4 style="color: #202020; font-size: 13px">Marvel Unlimited</h4>
+                  <p class="para" style="color: #393939; text-transform: none">Access Over 29,000+ Digital Comics</p>
+                </div>
+              </div>
+            </div>
+            <div class="extra-space">
+
+            </div>
           </Slide>
         </div>
         <div class="md-logo">

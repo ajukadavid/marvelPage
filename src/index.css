@@ -9,16 +9,90 @@
 
     font-size: 20px;
 }
+.first-news {
+    position: relative;
+    top: 50px;
+    width: 120px;
+    height: 140px;
+}
+.first-titley  {
+padding: -10px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+}
+.second-news {
+    position: relative;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+}
+.second-titley {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.nav-socials {
+    display: flex;
+    position: relative;
+    background-color: #202020;
+    top: 120px;
+    left: -30px;
+    width: 105%;
+}
+.extra-space {
+    width: 105%;
+    height: 180px;
+    margin-top: 90px;
+    background-color: #202020;
+    position: absolute;
+    left: -30px;
 
+}
+.nav-news {
+    display: grid;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    width: 105%;
+    left: -30px;
+    height: 290px;
+}
+.insider-logo {
+    height: 70px;
+    width: auto;
+}
+.insider-logo {
+    height: auto;
+    width: 120px;
+}
+.unlimited-logo {
+    height: auto;
+    width: 120px;
+}
+.unlimited-logo {
+    height: 50px;
+    width: auto;
+}
+.nav-news > .first-news {
+    display: flex;
+}
+
+.nav-socials > i {
+    color:  #393939;
+    font-size: 20px;
+    padding: 10px;
+}
 .nav-footer {
     position: absolute;
     left: 0;
-
+    display: grid;
     color: white;
     border-top: 1px solid #393939;
     border-bottom: 1px solid #393939;
     width: 100%;
 }
+
 .nav-stuff {
     position: relative;
     left: 2em;
@@ -29,9 +103,10 @@
     background-color: #202020;
     width: 16em;
     position: absolute;
-    left: 0px;
+    left: 0;
     justify-content: space-between;
 }
+
 .stuff-last {
 
     margin-bottom: 50px;
