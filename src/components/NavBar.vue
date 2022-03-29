@@ -1,6 +1,5 @@
 <template>
 <div>
-  <MqResponsive target="lg+">
     <div class="lg-container">
       <div class="first-child">
         <div class="user-name">
@@ -10,7 +9,6 @@
         <span>
           <img alt="marvel Logo Image" src="../assets/download.png" class="logo"/>
         </span>
-
         </div>
 
         <div class="search-bar">
@@ -50,8 +48,7 @@
         </ul>
       </div>
     </div>
-  </MqResponsive>
-  <MqResponsive target="md-">
+
     <div class="md-container">
       <div class="md-first-child">
         <div class="slider">
@@ -214,17 +211,16 @@
         </div>
       </div>
     </div>
-  </MqResponsive>
+
 </div>
 
 </template>
 
 <script>
-import { MqResponsive } from "vue3-mq";
 import { Slide } from 'vue3-burger-menu'
 export default {
   components: {
-    MqResponsive,
+
     Slide
   },
   name: "NavBar"
@@ -232,4 +228,34 @@ export default {
 </script>
 
 <style>
+.md-container {
+  display: none;
+}
+.lg-container {
+  font-size: 12px;
+  background-color: #202020;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+@media only screen and (max-width: 838px) {
+  .lg-container {
+    display: none;
+  }
+  .md-container {
+    font-size: 12px;
+    background-color: #202020;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    width: 100%;
+    height: 50px;
+  }
+}
 </style>

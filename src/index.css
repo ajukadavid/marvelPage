@@ -1,3 +1,8 @@
+html, body
+{
+
+    overflow-x: hidden;
+}
 .nav-stuff > h3 {
     color: gold;
     font-size: 10px;
@@ -6,7 +11,6 @@
 }
 .arrow {
     color: darkred;
-
     font-size: 20px;
 }
 .first-news {
@@ -90,7 +94,7 @@ padding: -10px;
     color: white;
     border-top: 1px solid #393939;
     border-bottom: 1px solid #393939;
-    width: 100%;
+    width: 100vw;
 }
 
 .nav-stuff {
@@ -118,32 +122,12 @@ padding: -10px;
     justify-content: space-between;
     width: 16em;
 }
-.lg-container {
-    font-size: 12px;
-    background-color: #202020;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: grid;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    height: 100px;
-}
+
 a {
     color: white;
     text-decoration: none;
 }
-.md-container {
-    font-size: 12px;
-    background-color: #202020;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: grid;
-    width: 100%;
-    height: 50px;
-}
+
 .md-search-icon {
     margin-left: 10px;
     margin-right: 10px;
@@ -165,7 +149,7 @@ a {
     display: flex;
     justify-content: space-between;
     position: relative;
-   top: -10px;
+    top: -10px;
     height: 70px;
 }
 .md-first-child {
@@ -188,7 +172,7 @@ a {
     border-right-color: 	#393939;
     position: relative;
     left: 25px;
-    margin-left: 150px;
+
     margin-top: 10px;
     padding: 10px;
 
@@ -209,15 +193,15 @@ a {
 }
 .logo {
     width: auto;
-    height : 64px;
+    height : 54px;
     position: relative;
-    top: 5px;
-    margin-top: -2px;
+    /*top: 5px;*/
+    margin-top: 3px;
     left: 49px;
 }
 .search-bar {
+    float: left;
     display: flex;
-    margin-right: 150px;
     border-left: 1px solid  #393939;
     border-right: 1px solid  #393939;
 }
