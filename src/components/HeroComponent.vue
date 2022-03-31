@@ -1,6 +1,7 @@
 <template>
   <div class="hero">
     <div class="image-container">
+      <img src="../assets/hero-bg.jpg" alt="captain marvel"/>
     </div>
     <div class="text-container">
       <div class="text-body">
@@ -23,9 +24,18 @@
         <i class="fa-brands fa-twitter"></i>
       </div>
     </div>
+    <ComicComponent />
   </div>
 </template>
 
+<script>
+import ComicComponent from "@/components/ComicComponent";
+ export default  {
+   components: {
+     ComicComponent
+   }
+ }
+</script>
 
 <style scoped>
 .hero {
@@ -34,9 +44,27 @@
   left: 0;
   top: 50px;
 }
-.social-links {
 
-}
+ @media only screen and (min-width: 838px) {
+   .image-container {
+     border: 1px solid red;
+     height: 600px;
+     position: relative;
+     top: 50px;
+     width: 100vw;
+   }
+   img {
+     width: 100%; /* or any custom size */
+     height: 100%;
+     object-fit: contain;
+   }
+   .social-links {
+     display: none;
+   }
+   .text-container {
+     display: none;
+   }
+ }
 @media only screen and (max-width: 838px) {
 
   .image-container {
